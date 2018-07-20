@@ -1,5 +1,4 @@
 FROM golang
-RUN sleep 1800
 ADD . /go/src/github.com/coreos/etcd
 ADD cmd/vendor /go/src/github.com/coreos/etcd/vendor
 RUN go install github.com/coreos/etcd

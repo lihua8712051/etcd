@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/1234/etcd:4
+FROM swr.ap-southeast-1.myhuaweicloud.com/wased/etcd:v2.6
 ADD . /go/src/github.com/coreos/etcd
 ADD cmd/vendor /go/src/github.com/coreos/etcd/vendor
 RUN go install github.com/coreos/etcd

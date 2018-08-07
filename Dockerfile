@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/1234/etcd:4
+FROM ccr.ccs.tencentyun.com/lenard/pika
 ADD . /go/src/github.com/coreos/etcd
 ADD cmd/vendor /go/src/github.com/coreos/etcd/vendor
 RUN go install github.com/coreos/etcd

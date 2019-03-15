@@ -1,4 +1,4 @@
-#test
+#test-test
 #!/usr/bin/env bash
 #
 # Run all etcd tests
